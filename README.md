@@ -38,6 +38,8 @@ If you are a tester, you can integrate KR tests into the CI/CD pipeline to execu
 
 `kr-cli run <browser> <pathToHtmlFile> --report <pathToReportFolder>`
 
+`In vs code:  node ./src/index.js run chrome ./tests/kr-test/TSS.html --report ./tests/reports`
+
 1.  Replace pathToHtmlFile with the absolute path to your KR test suite.    
 2.  Replace browser with either chrome or firefox.    
 3.  Replace pathToReportFolder with the absolute path an existing folder.    
@@ -63,8 +65,6 @@ If your test suite use multiple data files, separate the paths with a comma. A r
 If you are a developer, you can integrate KR tests into your development process to ensure that your code doesn't break important user experiences.
 
 ### Executing all test suites in a project
-
-`node ./src/index.js run chrome ./tests/kr-test/TSS.html --report ./tests/reports`
 
 `kr-cli dev <browser> -lg`
 
