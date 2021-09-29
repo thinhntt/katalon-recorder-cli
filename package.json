@@ -1,0 +1,32 @@
+{
+    "name": "katalon-recorder-cli",
+    "version": "1.1.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "kr-cli": "src/index.js"
+    },
+    "dependencies": {
+        "chromedriver": "^94.0.0",
+        "commander": "^8.2.0",
+        "console-table-printer": "^2.10.0",
+        "csv-stringify": "^5.6.5",
+        "express": "^4.17.1",
+        "geckodriver": "^2.0.4",
+        "himalaya": "^1.1.0",
+        "selenium-webdriver": "^4.0.0-rc-1",
+        "socket.io": "^4.1.2",
+        "winston": "^3.3.3",
+        "allure-commandline": "^2.13.8"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/katalon-studio/kr-cli.git"
+    }
+}
